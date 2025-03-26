@@ -1,30 +1,27 @@
 /* Your styles here */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
 body {
   color: #393d41;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Caveat", cursive;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings: "wdth" 100;
   font-size: 1.2rem;
   line-height: 1.65rem;
   text-align: center;
+  background-color: #e0e0e0d0;
 }
 
-h1,
-h2 {
+h1 {
   font-weight: 700;
-  color: #25a2c3;
-  font-family: "Montserrat", sans-serif;
+  -webkit-text-stroke: 3px black;
+  font-family: "Caveat", cursive;
   font-optical-sizing: auto;
   font-style: normal;
   padding: 1rem 1rem 0;
-  margin-top: 1rem;
-}
-h1 {
-  font-size: 2em;
+  font-size: 5em;
   line-height: 2.5rem;
+  margin: 0;
 }
 p {
   padding: 1rem 2em;
@@ -42,35 +39,45 @@ button {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-weight: 700;
-  padding: 0.8rem 1rem;
+  font-weight: 800;
+  padding: 1rem 1.2rem;
   margin: 0.5rem;
   border: 0;
   border-radius: 5px;
+  margin-left: 3rem;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 header {
-  background-color: black;
   padding: 1.5rem;
 }
+
 #checkBox {
   margin: 2rem 4rem;
-  background-color: #d1d1d1d0;
-  min-height: 300px;
+  background-color: #effa87d0;
+  min-height: 450px;
   padding: 2rem;
-  border-radius: 15%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgb(169, 169, 169);
 }
 
 #toDo {
   border: 0;
-  background-color: #d1d1d1d0;
+  background-color: #effa87d0;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings: "wdth" 100;
-  font-size: 1.2rem;
+  font-size: 2rem;
   line-height: 1.65rem;
   text-align: center;
+}
+li {
+  border-bottom: solid 2px;
+  border-color: #d1d1d1d0;
+  font-size: 4rem;
+  margin: 1rem;
 }
 .barrato {
   text-decoration: line-through;
